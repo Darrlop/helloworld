@@ -1,4 +1,7 @@
 def suma_numeros(hasta, inicio = 0):
+	'''
+	Programa de prueba para testear Git
+	'''
 
 	resultado = 0
 

@@ -1,3 +1,18 @@
+def normal(x):
+    return x
+
+def cuadrado(x):
+    return x * x
+
+def suma_todos(limite, f):
+    ''' sumatorio pasando funciones como param'''
+
+    resultado = 0
+    for i in range(limite + 1):
+        resultado += f(i)
+    return resultado
+
+
 def maximo(lista_num):
     ''' devuelve el númeor mayor de los pasados en una lista'''
     mayor = 0

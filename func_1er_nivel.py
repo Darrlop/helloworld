@@ -1,3 +1,4 @@
+# Se usará este fichero como llamadas a otros y definición directa de un par de funciones
 import func_1er_nivel_return as f1r
 
 def normal(x):
